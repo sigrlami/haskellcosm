@@ -1,0 +1,114 @@
+N  ,Name             ,Url,Type,Country,City,Area,Description  , Comment
+1,Microsoft,https://github.com/Microsoft/bond,RD,UK,Cambridge,,sponsored GHC r&d; framework for working with schematized data; etc.,
+2,Facebook,https://goo.gl/U99jAO,IP,USA,Menlo Park,,Haxl - Haskell library that simplifies access to remote data, such as databases or web-based services
+3,Barclays Capital,http://www.barclays.com/,IP,UK,London,Finance,In-House Trading software,
+4,Standard Chartered Bank,https://www.sc.com/en/index.html,IP,UK,London,Finance,In-House Trading software,
+5,Tsuru Capital,http://www.tsurucapital.com/en/,IP,Canada,Vancouver,Finance,Trading software,
+6,Galois,http://corp.galois.com/,RD,USA,Portland,,various R&D projects,
+7,Scrive ,http://scrive.com/,PR,Sweden,Stockholm,,Scrive is a service for e-signing tenders  contracts  and other documentse. ,
+8,Skedge ,http://skedge.me,PR,USA,New York,,Scheduling software, backend written in Haskell
+9,Kelecorix ,https://kelecorix.com,CO,USA,Rockledge,Hardware/Consulting,Multiple customer tailored projects, consulting
+10,Janrain ,http://janrain.com ,PR,USA,Portland,,Login service provider, parts on backend in Haskell (Capture)
+11,Docmunch ,https://www.docmunch.com/,PR,,,,(startup) automatically parses structured data out of formatted documents like PDFs,. Backend written in Haskell
+12,Zalora ,http://worldwide.zalora.com/,IP,,,,DevOps backend deployment and Amazon EC2 automatization., See [upcast](https://github.com/zalora/upcast)
+13,AlephCloud ,http://www.alephcloud.com/,PR,USA,,,Cloud platform, based on Happstack
+14,Tabula,http://www.tabula.com/,IP,,,Hardware,FPGA generation ,
+15,SignalVine ,https://www.signalvine.com/,PR,USA,,,Partially Haskell infrastructure for Intelligent text messaging platform ,
+16,Soostone ,http://soostone.com,PR,USA,,Advertising,develops eDSL for AB-style testing. ,
+17,Hasura ,http://hasura.io/,PR,,,,micro-services PaaS , http://34cross.in/zero-to-haskell-in-production
+18,Fugue, https://fugue.it/,PR,,,,immutable infrastructure  automates the creation  operations  and regeneration of cloud infrastructure.,
+19,Liquid Democracy ,https://liqd.net/,PR,,,,E-goverment solutions , https://liqd.net/job_haskell.html
+20,Kaspersky Lab ,http://kaspersky.com,IP,Russia,,Security,Security analysis , https://mail.haskell.org/pipermail/haskell-cafe/2015-October/121851.html
+21,Capital Match,http://www.capital-match.com/,PR,,,Finance,a peer-to-peer lending marketplace for Small and Medium Businesses  private and corporate investor ,http://abailly.github.io/posts/cm-arch-design.html
+22,Wagon ,https://www.wagonhq.com/,PR,USA,,,SQL cloud analysis,https://www.wagonhq.com/jobs/haskell-engineer
+23,ThoughtLeader ,http://www.thoughtleadr.com/,PR,USA,,,Smart adverstising platform , Haskell on Backend
+24,Tweag,https://tweag.io,CO,,,,Haskell consulting ,
+25,Prezi,https://prezi.com/,PR,,,,Cloud-based presentation software,http://vigoo.github.io/posts/2015-09-21-haskell-case-study.html
+26,Elevence ,http://elevence.com,PR,,,Finance,"Financial services,  contract digitization,  legal processing", http://www.eth-gethired.ch/jobs/haskell_engineer_1/33197
+27,DNBCloud ,http://www.dnbcloud.com/,PR,,,,Data(db) analytics cloud software,http://www.dnbcloud.com/joblistings/haskell-developer/
+28,Pusher ,http://pusher.com,PR,,,,Real-time channels (?),
+29,Obsidian Systes ,https://obsidian.systems/,CO,USA,,,Multiple customer tailored projects consulting, goo.gl/OeHjZU
+30,Well-Typed ,http://www.well-typed.com/,CO,UK,,,Multiple customer tailored projects consulting , goo.gl/G7eowH
+31,WeAreWizards,http://wearewizards.io,CO,,,,Multiple customer tailored projects consulting , https://blog.wearewizards.io/a-lot-of-websockets-in-haskell
+33,Bdellium ,http://bdellium.com/,IP,USA,HW,Finance,In-house risk management ,
+34,BlockApps ,http://blockapps.net/,PR,,,Blockchain,BlockApps is a Haskell-based blockchain infrastructure company , Job [info] (https://www.reddit.com/r/haskell/comments/4douwk/haskell_jobs_at_blockapps_build_next_generation/)
+35,StackBuilders ,http://www.stackbuilders.com/,CO,,,,Various customer tailored projects, consulting
+36,WellPosed ,http://www.wellposed.com/,CO,,,,Various customer tailored projects, consulting
+37,RefMe ,https://www.refme.com/,PR,,,,Reference management web-app,
+38,LuMiGuide ,https://lumiguide.eu/,PR,,,,Bicycle direction system ,web  backend (ghcjs  servant) + hardware (CV)
+39,Plow Technologies ,http://www.plowtech.net/,PR,,,Hardware,industrial monitoring ,web  backend (ghcjs +servant)
+40,GetShop.TV,http://getshoptv.com/,PR,Russia,,,Interactive TV Ads,web backend
+41,Anchor,http://www.anchor.com.au/,IP,,,,DevOps backend deployment.,
+42,Applikativ,http://applikativ.no/,CO,,,,Haskell consulting,
+43,Assertible,https://assertible.com/,PR,,,,Automated testing,
+44,Borders,,,,,,,
+45,Beautiful Destinations,,,,,,,
+46,ByteAlly,http://byteally.com/,CO,,,,Haskell consulting; products,
+47,Chordify,https://chordify.net/,PR,,,,music analysis,
+48,CircuitHub,https://circuithub.com/,PR,,,,online eda; pcb maker,
+49,Commonwealth Bank,http://stackoverflow.com/jobs/companies/commonwealth-bank,,,,Finance,some financial tools,
+50,DigitalX,https://digitalx.com,PR,,,Blockchain,blockchains,
+51,Elsen,https://elsen.co/,PR,,,Finance,Financial analysis; trading,https://github.com/elsen-trading
+52,Extensibl,,,,,,,
+53,FP Complete,https://www.fpcomplete.com/,CO,,,,Haskell consulting; various products,
+54,FPInsight,http://www.fpinsight.com/,CO,,,,Haskell consulting,
+55,Front Row Education,https://www.frontrowed.com/,PR,,,,education platform,
+56,Helium Systems,,,,,,,
+57,"Hooky, Inc",,,,,,,
+58,Infinipool,http://www.infinipool.com/,IP,,,,devops,
+59,Iris Connect,http://www.irisconnect.co.uk/,PR,,,,Learning platform,
+60,Keera Studios,http://keera.co.uk/blog/,PR,,,Gaming,Game Development,
+61,Kite & Lightning,http://kiteandlightning.com/,PR,USA,"WA, Seattle",,Advanced Building Automation / A.I.,backend services
+62,Least Fixed,https://leastfixed.com/,CO,UK,,,,
+63,LexisNexis Risk Solutions,https://www.lexisnexis.com/risk/uk/,IP,UK,,Finance,"Insurance modeling, finances, risk management",
+64,Madriska Inc.,http://www.madriska.com/,CO,USA,"IL, Chicago",,,
+65,Midroll,,,,,,,
+66,MyFansDemand,,,,,,,
+67,Picus Security,https://www.picussecurity.com/,IP,Turkey,Ankara,Security,,
+68,Pivot Cloud,,,,,,,
+69,Rheo Systems,http://rheosystems.com/,IP,South Africa,Pretoria,,,
+70,Scoompa,http://www.scoompa.com/,IP,,,,,
+71,VaryWell,http://varywell.com/,CO,USA,Seattle,,,
+72,SimplyRETS,https://simplyrets.com/,,,,,,
+73,Snowdrift.coop,https://snowdrift.coop/,,,,,,
+74,Stitcher,http://www.stitcher.com/,IP,,,,podcasting,
+75,Suite Solutions,http://suite-sol.com/,IP,Israel,Jerusalem,,http://suite-sol.com/about-us/careers/,
+76,SumAll,,,,,,,
+77,Swift Navigation,https://www.swiftnav.com/,IP,USA,,Hardware,Linear algebra for GPS hardware,
+78,Systor Vest,http://www.systorvest.no/,,Norway,,,,
+79,Thoughtbot,,PR,USA,,Advertising,,
+80,Tree.is,,,,,,,
+81,Turing Jump,https://turingjump.com/,CO,,,,,
+82,UpHere,,,,,,,
+83,VFILES,,,,,,,
+84,Virtual Forge,https://www.virtualforge.com/en/home.html,IP,,,,,
+85,Wellposed,http://www.wellposed.com/,RD,,,,,
+86,IOHK,https://iohk.io,RD,,,Blockchain,blockchains,
+87,AlphaSheets,http://www.alphasheets.com/,PR,,,,online spreadsheets,
+88,Takt,http://takt.com,PR,USA,Seattle,,AI,http://takt.com/careers/haskell-engineer/
+89,ABN AMRO,https://www.abnamro.com/en/index.html,IP,Neutherlands,Amsterdam,Finance,"Investment banking, financial services",http://cufp.galois.com/2007/abstracts.html#CyrilSchmidt
+90,Aetion Technologies,,IP,USA,"OH, Columbus",,Artificial Intelligence,http://cufp.galois.com/2006/slides/GaryMorris.pdf
+91,Alcatel-Lucent,,IP,,,,"narrowband software radio systems, running in (soft) real-time.",
+92,Aliston Trading,http://www.allstontrading.com/,IP,USA,"IL, Chicago",Finance,market making,
+93,Myan Capital,http://www.myantrading.com/,IP,USA,"IL, Chicago",Finance,investment trading with Market Profile,
+94,Alpha Heavy,http://www.alphaheavy.com/,IP ,USA,"CA, San Francisco",Finance,assets management,
+95,Amgen,http://www.amgen.com/,IP,USA,"CA, Thousand Oaks",Biology,molecular biology software,
+96,Antiope,http://antiope.com/,IP,USA,"NJ, Fair Heaven",Hardware/Telecom,"Wireless simulation, hardware design",
+97,Asurion,https://www.asurion.com/,IP,USA,"TN, Nashville",,devops,
+98,BAE Systems,http://www.baesystems.com/en/home?r=UA,IP,USA,,Hardware,"Wireless simulation, hardware design",
+99,BazQux,https://bazqux.com/,PR,Russia,Moscow,SaaS,RSS reader,
+100,bCode,http://bcode.com/,IP,Australia,Sydney,Finance,"Investment banking, financial services",
+101,Betterteam,https://www.betterteam.com/,PR,USA,"CA, Los Angeles",SaaS,"SaaS recuitment platform, frontend PureScript",
+102,Bluespec,http://www.bluespec.com/,IP,USA,"MA, Framingham",Hardware,"hardware design (ASIC, FPGA)",
+103,Capital IQ,https://www.capitaliq.com/,IP,USA,"NY, NYC",Finance,Financial analysis; ,
+104,Credit Suisse,,IP,Switzerland,,Finance,Financial analysis; ,
+105,Deutsche Bank,,IP,Germany,,Finance,Financial analysis; ,
+106,Eaton,http://www.eaton.com/RU/Eaton/index.htm,IP,USA,,Hardware,hydraulics systems,
+107,Nike,https://nike.com, IP, USA,"OR, Portland", , developers tooling https://github.com/Nike-Inc/bartlett,
+108,Serokell,https://serokell.io/, CO, , , , Haskell consulting,
+109,Symbiont,https://symbiont.io/, PR, USA, "NY, NYC", Blockchain, "Symbiont is a New York-based startup that is using smart contracts and blockchain technology to radically improve financial market back-office infrastructure. Haskell is currently used at Symbiont for its network management tooling, and there are plans to expand the use of the language to transaction processing and other backend services",
+109,Layer 3 Communications,https://layer3com.com, IP, USA, "GA, Atlanta", Networking, ,
+110, Position Development,http://positiondev.com/,CO, USA, "NY, NYC", , Haskell Consulting,
+111, Vacation Labs, https://www.vacationlabs.com/, IP, India, Goa, SaaS, product for travels,https://www.vacationlabs.com/haskell-internship/
+112, MPowered, https://mpowered.co.za/, IP, Sweden,Stockholm,SaaS,product for Broad-Based Black Economic Empowerment(B-BBE),http://mpowered.co.za/jobs/
+113, Relex Solutions, https://relex.recruiterbox.com/jobs/fk01gjr/, IP, Finland, Helsinki, SaaS, product for supply chains in retail, https://relex.recruiterbox.com/jobs/fk01gjr/
