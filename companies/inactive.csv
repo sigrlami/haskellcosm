@@ -1,7 +1,10 @@
-Name                 ,, Date                ,Reason                 , Description
-Bump ,https://bu.mp/, 31/12/2013          ,acquired by Google,"Bump used a Haskell-based server,  [Angel](https://github.com/MichaelXavier/Angel)  and for other infrastructure tasks. "
-Parallel Scientific,http://www.parsci.com, circa december 2013 ,pivot to Docforce (see Actual) ," FPGA  generation,  distributed computing "
-Erudify         ,http://www.erudify.com, circa march 2014    ,change name," now  Better,  Online education platform"
-Better ,http://www.better.io,circa december 2015,, Online education platform
-MailRank    ,http://www.mailrank.com/, circa october 2011  ,acquired by Facebook," Smart anti-spam filtering,  mail prioritizing"
-Docforce,https://www.docsforce.com, Docsforce is secure middleware that delivers documents from one party to another.,,
+Name                 ,,Type,Country,City,Area,Start Date (Approx), Clode Date (Approx),Reason                 ,Beneficiar,Description
+Bump ,https://bu.mp/,,USA,,,, 31/12/2013          ,,"Google, Inc.","Bump used a Haskell-based server,  [Angel](https://github.com/MichaelXavier/Angel)  and for other infrastructure tasks. "
+Parallel Scientific,http://www.parsci.com,,USA,,,,circa december 2013 ,Pivot,Docforce," FPGA  generation,  distributed computing "
+Erudify         ,http://www.erudify.com,,Switzerland,,"SaaS, Education",,circa march 2014    ,Pivot,"Better, Inc."," now  Better,  Online education platform"
+Better ,http://www.better.io,,Switzerland,,"SaaS, Education",,circa december 2015,Closed,,Online education platform
+MailRank    ,http://www.mailrank.com/,,USA,,,,circa october 2011  ,Acquired,"Facebook, Inc.","Smart anti-spam filtering,  mail prioritizing"
+Docforce,https://www.docsforce.com,,USA,,,,,Closed,,"Docsforce is secure middleware that delivers documents from one party to another., (startup) automatically parses structured data out of formatted documents like PDFs, Backend written in Haskell"
+Docmunch ,https://www.docmunch.com/,PR,USA,,,,circa july 2017,Closed,,
+AlephCloud ,http://www.alephcloud.com/,PR,USA,,,,,Closed,,Cloud platform  based on Happstack
+Silk,http://www.silk.co/,PR,Netherlands,Amsterdam,,,15/12/2017,Closed,,"Wiki-like knowledge base, http://blog.silk.co/post/167155630197/its-time-to-say-goodbye"
