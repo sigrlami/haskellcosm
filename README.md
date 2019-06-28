@@ -10,11 +10,9 @@ Useful information about Haskell ecosystem.
 
 ## Companies
 
-List of companies that use Haskell in their work ( `in production`). This repository contains raw data in csv for `Active` and `Inactive` companies, data collected from open source on the Internet like company GitHub repos, job postings, news, blogs, success stories, presentations, etc.
+List of companies that use Haskell in their work ( `in production`). This repository contains raw data in csv for `Active` and `Inactive` companies, data collected from open sources on the Internet like company GitHub repos, job postings, news, blogs, success stories, presentations, etc.
 
-
-
-Initial work done by @sigrlami in a gist file https://gist.github.com/sigrlami/769f5e6674adbd399f00
+Initial work done by [Sergey Bushnyak](https://github.com/sigrlami) in a [gist](https://gist.github.com/sigrlami/769f5e6674adbd399f00) file.
 
 ## Media
 
