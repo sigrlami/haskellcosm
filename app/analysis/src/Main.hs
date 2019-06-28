@@ -30,7 +30,34 @@ src_DBTab_MData =
 main :: IO ()
 main = do
   -- read source csv file
-  srcCSV <- readCSV "../../companies/active.csv"
+  srcCSV <- C.readCSV "../../companies/active.csv"
   let src_DBTab = toRTable src_DBTab_MData srcCSV  -- turn source csv to an RTable
 
+  -- Let's find all companies that use Haskell for Internal products
+  resultRTab <- runJulius $ julExpr "IP" $ toRTable src_DBTab_MData srcCSV
+  printfRTable
+    ( genRTupleFormat
+        ["Name", "Type", "Country", "City", "Area", "Description"]
+        genDefaultColFormatMap
+    ) $ resultRTab
+
+
+  -- write data to file if needed
+  -- writeCSV "result.csv" $ fromRTable result_tab_MData resultRTab
+
   return $ ()
+
+
+julExpr srch rtab =
+  EtlMapStart
+    :-> (EtlR $
+           ROpStart
+           :.  (Filter (From $ Tab rtab) $
+                 FilterBy (\t -> case instrRText (RText srch) (t <!> "active") of
+                                   Just p  -> True
+                                   Nothing -> False
+                                 &&
+                                   (t <!> "Type") == (RText srch)
+                          )
+               )
+        )
