@@ -1,3 +1,4 @@
 # Haskell Cosmos - Media
 
-Audio & Video content related to Haskell
+- Video content related to Haskell, youtube channels primarly abd other interesting resources.
+- Audio content, podcasts mostly.
