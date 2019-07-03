@@ -139,3 +139,5 @@ N  ,Name             ,Url,Type,Country,City,Area,Description  , Comment,
 138,Target,https://target.com/,IP,USA,"Ca, Sunnyvale",E-commerce,data analysis ,https://jobs.target.com/job/sunnyvale/lead-data-engineer-data-science-optimization/1118/10952361,
 139,Banyan,https://www.banyaninfrastructure.com/,IP,USA,"CA, San Francisco",Finance,risk management,https://angel.co/company/banyan-infrastructure/jobs/524748-vp-of-engineering,
 140,Bitnominal,https://bitnomial.com/,IP,USA,"IL, Chicago",Finance,Crypto exchange, cryptocurrency risk management,https://np.reddit.com/r/haskell/comments/b85odr/job_bitnomial_chicago_il/
+141,Metrix,http://metrix.ai,PR,,,Advertising,,,
+142,Astor,https://astro.ai,PR,Sweden,Stockholm,Finance,express data entry from checks and analysis,,
