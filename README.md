@@ -4,19 +4,22 @@ Useful information about Haskell ecosystem.
 
 1. [Companies](#companies)
 2. [Media](#media)
-3. [Analysis](#analysis)
-4. [Contributions](#contributions)
+3. [Communities](#communities)
+4. [Analysis](#analysis)
+5. [Contributions](#contributions)
 
 
 ## Companies
 
 List of companies that use Haskell in their work ( `in production`). This repository contains raw data in csv for `Active` and `Inactive` companies, data collected from open sources on the Internet like company GitHub repos, job postings, news, blogs, success stories, presentations, etc.
 
-
-
 ## Media
 
 Audio & Video content related to Haskell
+
+## Communities
+
+List of communities
 
 ## Analysis
 
