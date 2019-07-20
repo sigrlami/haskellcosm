@@ -24,6 +24,7 @@ import qualified Data.Vector                     as V
 import qualified Text.Blaze.Html.Renderer.String as H
 import           Text.Blaze.Html5                (Html)
 import qualified Text.Blaze.Html5                as H
+import qualified Text.Blaze.Html5.Attributes     as H
 
 import           Types
 
@@ -75,12 +76,19 @@ makeHeaderRow =
    H.tr $ do
      H.td $ "#"
      H.td $ "Name"
+     H.td $ "Type of Work"
+     H.td $ "Country"
+     H.td $ "City"
 
 makeRow' :: Company -> Html
 makeRow' row =
   H.tr $ do
     H.td $ H.toHtml $ cId row
-    H.td $ H.toHtml $ cName row
+    H.td $ H.a H.! H.href (H.toValue (cUrl row)) $ H.toHtml $ cName row
+    H.td $ H.toHtml $ cType row
+    H.td $ H.toHtml $ cCountry row
+    H.td $ H.toHtml $ cCity row
+
 
 makeTable :: FilePath -> IO ()
 makeTable fp = do
@@ -94,7 +102,6 @@ makeTable fp = do
     Right dat  -> do
       let htmlTable = generateHtmlTable' csvData
       print $ H.renderHtml htmlTable
-
 
 decodeCompanies :: LBS.ByteString -> Either String (V.Vector Company)
 decodeCompanies = fmap snd . Csv.decodeByName

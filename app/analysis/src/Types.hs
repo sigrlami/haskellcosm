@@ -26,6 +26,7 @@ data Company =
     , cArea        :: T.Text
     , cDescription :: T.Text
     , cComment     :: T.Text
+    , cComment2    :: T.Text
     } deriving (Eq, Show)
 
 instance FromNamedRecord Company where
@@ -40,3 +41,4 @@ instance FromNamedRecord Company where
       <*> m Csv..: "Area"
       <*> m Csv..: "Description"
       <*> m Csv..: "Comment"
+      <*> m Csv..: "Comment2"

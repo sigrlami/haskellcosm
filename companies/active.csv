@@ -1,6 +1,6 @@
-N  ,Name             ,Url,Type,Country,City,Area,Description  , Comment,
+N,Name,Url,Type,Country,City,Area,Description,Comment,Comment2
 1,Tesla,https://www.tesla.com/,IP,USA,"CA, Palo Alto",Hardware,various internal projects,https://www.reddit.com/r/haskell/comments/95osyd/fulltime_position_at_tesla_inc/,
-2,Microsoft,https://github.com/Microsoft/bond,RD,UK,Cambridge,Compilers,sponsored GHC r&d, framework for working with schematized data, etc.
+2,Microsoft,https://github.com/Microsoft/bond,RD,UK,Cambridge,Compilers,sponsored GHC r&d, framework for working with schematized data,
 3,Facebook,https://goo.gl/U99jAO,IP,USA,"CA, Menlo Park","Advertising, Spam Filtering",Haxl - Haskell library that simplifies access to remote data, such as databases or web-based services,
 4,Barclays Capital,http://www.barclays.com/,IP,UK,London,Finance,In-House Trading software,,
 5,Standard Chartered Bank,https://www.sc.com/en/index.html,IP,UK,London,Finance,In-House Trading software,,
@@ -29,7 +29,7 @@ N  ,Name             ,Url,Type,Country,City,Area,Description  , Comment,
 28,StackBuilders ,http://www.stackbuilders.com/,CO,Ecuador,Quito,Consulting,Various customer tailored projects, consulting,
 29,WellPosed ,http://www.wellposed.com/,CO,USA,"NY, NYC",Consulting,Various customer tailored projects, consulting,
 30,Chegg,https://chegg.com,PR,USA,"NY, NYC","Education, SaaS","Automatic citation management for academics, previously RefMe, then CiteThisForMe",,
-31,LuMiGuide ,https://lumiguide.eu/,PR,Netherlands,Nijmegen,Automotive,Smart mobility solutions, Bicycle direction system ,web  backend (ghcjs  servant) + hardware (CV)
+31,LuMiGuide ,https://lumiguide.eu/,PR,Netherlands,Nijmegen,Automotive,Smart mobility solutions," Bicycle direction system , web  backend (ghcjs  servant) + hardware (CV)",
 32,Plow Technologies ,http://www.plowtech.net/,PR,USA,"OK, Yukon",Hardware,industrial monitoring ,web  backend (ghcjs +servant),
 33,GetShop.TV,http://getshoptv.com/,PR,Russian Federation,Moscow,Advertising,Interactive TV Ads,web backend,
 34,Anchor,http://www.anchor.com.au/,IP,Australia,Sydney,Networking,DevOps backend deployment.,,
@@ -41,7 +41,7 @@ N  ,Name             ,Url,Type,Country,City,Area,Description  , Comment,
 40,CircuitHub,https://circuithub.com/,PR,USA,"MA, Deerfield",Hardware,online EDA, pcb maker,
 41,Commonwealth Bank,http://stackoverflow.com/jobs/companies/commonwealth-bank,IP,,,Finance,some financial tools,,
 42,DigitalX,https://digitalx.com,PR,Australia,Perth,Blockchain,blockchains,,
-43,Elsen,https://elsen.co/,PR,USA,"MA, Boston",Finance,Financial analysis, trading,https://github.com/elsen-trading
+43,Elsen,https://elsen.co/,PR,USA,"MA, Boston",Finance,Financial analysis," trading, https://github.com/elsen-trading",
 44,Extensibl,https://extensibl.com/,CO,New Zealand,Auckland,Consulting,Various customer tailored projects,,
 45,FP Complete,https://www.fpcomplete.com/,CO,USA,"CA, San Diego",Consulting,Haskell consulting, various products,
 46,FPInsight,http://www.fpinsight.com/,CO,,,,Haskell consulting,,
