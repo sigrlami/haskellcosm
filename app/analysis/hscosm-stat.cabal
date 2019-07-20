@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c38993e60b100bccf614239c339f3c68adc95d739b9781ede431fc888dd526a4
+-- hash: 4664063a4e9c373ea98a2eccc3fc7bf995a604e50210f5adab6f520ebe64733b
 
 name:                hscosm-stat
 version:             0.1.0.0
@@ -25,10 +25,12 @@ executable hscosm-stat
   main-is: Main.hs
   other-modules:
       Html
+      Types
       Paths_hscosm_stat
   default-language: Haskell2010
   build-depends:
       DBFunctor
+    , aeson
     , base >=4.7 && <5
     , blaze-html
     , bytestring
