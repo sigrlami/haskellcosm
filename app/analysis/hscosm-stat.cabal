@@ -1,7 +1,13 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: c38993e60b100bccf614239c339f3c68adc95d739b9781ede431fc888dd526a4
+
 name:                hscosm-stat
 version:             0.1.0.0
--- synopsis:
--- description:
 homepage:            https://github.com/sigrlami/hscosm-stat#readme
 license:             MIT
 license-file:        LICENSE
@@ -10,14 +16,23 @@ maintainer:          sergey.bushnyak@sigrlami.eu
 copyright:           Copyright: (c) 2019 Sergey Bushnyak
 category:            Web
 build-type:          Simple
-cabal-version:       >=1.10
-extra-source-files:  README.md
+extra-source-files:
+    README.md
 
 executable hscosm-stat
-  hs-source-dirs:      src
-  main-is:             Main.hs
-  default-language:    Haskell2010
-  build-depends:       base >= 4.7 && < 5
-                     , DBFunctor
-                     , text
-                     , time
+  hs-source-dirs:
+      src
+  main-is: Main.hs
+  other-modules:
+      Html
+      Paths_hscosm_stat
+  default-language: Haskell2010
+  build-depends:
+      DBFunctor
+    , base >=4.7 && <5
+    , blaze-html
+    , bytestring
+    , cassava
+    , text
+    , time
+    , vector

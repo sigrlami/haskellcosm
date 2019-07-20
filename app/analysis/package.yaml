@@ -1,0 +1,24 @@
+name: hscosm-stat
+version: '0.1.0.0'
+category: Web
+author: Sergey Bushnyak
+maintainer: sergey.bushnyak@sigrlami.eu
+copyright: ! 'Copyright: (c) 2019 Sergey Bushnyak'
+license: MIT
+homepage: https://github.com/sigrlami/hscosm-stat#readme
+extra-source-files:
+- README.md
+dependencies:
+- base >=4.7 && <5
+- DBFunctor
+- text
+- time
+- cassava
+- vector
+- bytestring
+- blaze-html
+
+executables:
+  hscosm-stat:
+    main: Main.hs
+    source-dirs: src
