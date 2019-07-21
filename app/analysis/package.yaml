@@ -17,6 +17,7 @@ dependencies:
 - vector
 - bytestring
 - blaze-html
+- blaze-markup
 - aeson
 
 executables:

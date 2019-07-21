@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4664063a4e9c373ea98a2eccc3fc7bf995a604e50210f5adab6f520ebe64733b
+-- hash: 5a26e6f7534ee1b4a34905af1c4b0505693b4c32e29b8127b36036c5be636f4e
 
 name:                hscosm-stat
 version:             0.1.0.0
@@ -33,6 +33,7 @@ executable hscosm-stat
     , aeson
     , base >=4.7 && <5
     , blaze-html
+    , blaze-markup
     , bytestring
     , cassava
     , text
