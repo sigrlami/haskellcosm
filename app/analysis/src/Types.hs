@@ -19,7 +19,7 @@ data Company =
   Company
     { cId          :: Int
     , cName        :: T.Text
-    , cUrl         :: T.Text
+    , cUrl         :: String
     , cType        :: T.Text
     , cCountry     :: T.Text
     , cCity        :: T.Text

@@ -24,7 +24,8 @@ import qualified Data.Vector                     as V
 import qualified Text.Blaze.Html.Renderer.String as H
 import           Text.Blaze.Html5                (Html)
 import qualified Text.Blaze.Html5                as H
-import qualified Text.Blaze.Html5.Attributes     as H
+import qualified Text.Blaze.Html5.Attributes     as A
+
 
 import           Types
 
@@ -74,20 +75,25 @@ makeRow row =
 makeHeaderRow :: Html
 makeHeaderRow =
    H.tr $ do
-     H.td $ "#"
-     H.td $ "Name"
-     H.td $ "Type of Work"
-     H.td $ "Country"
-     H.td $ "City"
+     H.th $ "#"
+     H.th $ "Name"
+     H.th $ "Type"
+     H.th $ "Location"
+     H.th $ "Area"
 
 makeRow' :: Company -> Html
 makeRow' row =
   H.tr $ do
     H.td $ H.toHtml $ cId row
-    H.td $ H.a H.! H.href (H.toValue (cUrl row)) $ H.toHtml $ cName row
+    H.td $ H.toHtml $
+      H.a
+        H.! A.href  (H.stringValue $ cUrl row)
+          $ H.toHtml $ cName row
     H.td $ H.toHtml $ cType row
-    H.td $ H.toHtml $ cCountry row
-    H.td $ H.toHtml $ cCity row
+    H.td $ H.toHtml $ if (T.null (cCountry row) && T.null (cCity row))
+                      then ""
+                      else T.concat [cCountry row, ", ", cCity row]
+    H.td $ H.toHtml $ cArea row
 
 
 makeTable :: FilePath -> IO ()
