@@ -2,7 +2,7 @@
 
 Useful information about Haskell ecosystem.
 
-1. [Companies](#companies)
+1. [Companies](#companies) - already published at [haskellcosm.com](https://haskellcosm.com)
 2. [Media](#media)
 3. [Communities](#communities)
 4. [Analysis](#analysis)
