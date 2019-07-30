@@ -19,6 +19,7 @@ dependencies:
 - blaze-html
 - blaze-markup
 - aeson
+- MissingH
 
 executables:
   hscosm-stat:

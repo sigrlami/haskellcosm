@@ -13,8 +13,8 @@ import           Data.Csv                        (DefaultOrdered (headerOrder),
                                                   Header, ToField (toField),
                                                   ToNamedRecord (toNamedRecord),
                                                   (.:), (.=))
-
 import qualified Data.Csv                        as Csv
+import           Data.String.Utils
 import qualified Data.Text                       as T
 import qualified Data.Text.Encoding              as TE
 import qualified Data.Text.Lazy                  as TL
@@ -51,10 +51,10 @@ generateHtmlTable' bs = do
       H.p $ H.toHtml err
     Right rows -> do
       let companies = V.toList rows
-      H.table $ do
-        H.thead $ makeHeaderRow
-        H.tbody $
-          forM_ companies makeRow'
+      H.table H.!
+        A.class_ "sortable-theme-minimal" $ do
+          H.thead $ makeHeaderRow
+          H.tbody $ forM_ companies makeRow'
 
 genetateHtmlTableWithContents :: LBS.ByteString -> Html
 genetateHtmlTableWithContents bs =
@@ -96,18 +96,40 @@ makeRow' row =
     H.td $ H.toHtml $ cArea row
 
 
-makeTable :: FilePath -> IO ()
+makeTable :: FilePath -> IO (Either String String)
 makeTable fp = do
   csvData <- LBS.readFile fp
   let htmlTable = genetateHtmlTable csvData
 
   case TEL.decodeUtf8' csvData of
     Left  err  -> do
-      putStrLn $ "error decoding" ++ (show err)
-      return ()
+      return $ Left $ "error decoding" ++ (show err)
     Right dat  -> do
       let htmlTable = generateHtmlTable' csvData
-      print $ H.renderHtml htmlTable
+      return $ Right $ H.renderHtml htmlTable
+
+makeViewTable :: FilePath -> IO ()
+makeViewTable fp = do
+  htmlTableE <- makeTable fp
+  print htmlTableE
+
+makeInsertTable :: FilePath -- ^ path to csv
+                -> FilePath -- ^ path to orogonal html file
+                -> FilePath -- ^ path to output html file
+                -> String   -- ^ insertion pattern
+                -> IO ()
+makeInsertTable dfp ifp ofp ptrn = do
+  htmlTableE <- makeTable dfp
+  case htmlTableE of
+    Left err ->
+      print $ err
+    Right htmlTable -> do
+      htmlFile <- readFile ifp
+      let newHtmlFile = replace ptrn htmlTable htmlFile
+      writeFile ofp newHtmlFile
 
 decodeCompanies :: LBS.ByteString -> Either String (V.Vector Company)
 decodeCompanies = fmap snd . Csv.decodeByName
+
+-- > :load src/Html.hs
+-- > makeInsertTable "../../companies/active.csv" "../../external/index.html" "../../external/index_.html" "$table$"
