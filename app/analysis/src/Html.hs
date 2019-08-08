@@ -128,8 +128,5 @@ makeInsertTable dfp ifp ofp ptrn = do
       let newHtmlFile = replace ptrn htmlTable htmlFile
       writeFile ofp newHtmlFile
 
-decodeCompanies :: LBS.ByteString -> Either String (V.Vector Company)
-decodeCompanies = fmap snd . Csv.decodeByName
-
 -- > :load src/Html.hs
 -- > makeInsertTable "../../companies/active.csv" "../../external/index.html" "../../external/index_.html" "$table$"

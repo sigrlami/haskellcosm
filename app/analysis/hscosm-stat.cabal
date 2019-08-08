@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 1bbfb7e1c551a34d2c61325bacd3c9e2df37304c4c16a677fc0ded8492704c97
+-- hash: 486e5742e9d80b0ec53256b910064b50efb66c0bde56307f3d0c8cfd9421ca27
 
 name:                hscosm-stat
 version:             0.1.0.0
@@ -24,6 +24,7 @@ executable hscosm-stat
       src
   main-is: Main.hs
   other-modules:
+      GeoJSON
       Html
       Types
       Paths_hscosm_stat
