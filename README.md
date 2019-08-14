@@ -5,7 +5,7 @@ Useful information about Haskell ecosystem.
 1. [Companies](#companies) - published at [haskellcosm.com](https://haskellcosm.com)
 2. [Media](#media)
 3. [Communities](#communities)
-4. [Analysis](#analysis) - published at [haskellcosm.com/analysis][https://haskellcosm.com/analysis.html]
+4. [Analysis](#analysis) - published at [haskellcosm.com/analysis](https://haskellcosm.com/analysis.html)
 5. [Contributions](#contributions)
 
 
