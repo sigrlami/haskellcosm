@@ -2,7 +2,7 @@
 
 Useful information about Haskell ecosystem.
 
-1. [Companies](#companies) - already published at [haskellcosm.com](https://haskellcosm.com)
+1. [Companies](#companies)
 2. [Media](#media)
 3. [Communities](#communities)
 4. [Analysis](#analysis)
@@ -11,7 +11,7 @@ Useful information about Haskell ecosystem.
 
 ## Companies
 
-List of companies that use Haskell in their work ( `in production`). This repository contains raw data in csv for `Active` and `Inactive` companies, data collected from open sources on the Internet like company GitHub repos, job postings, news, blogs, success stories, presentations, etc.
+Already published at [haskellcosm.com](https://haskellcosm.com). List of companies that use Haskell in their work ( `in production`). This repository contains raw data in csv for `Active` and `Inactive` companies, data collected from open sources on the Internet like company GitHub repos, job postings, news, blogs, success stories, presentations, etc.
 
 ## Media
 
@@ -23,7 +23,7 @@ List of communities
 
 ## Analysis
 
-Small application to work with csv data and do analysis over companies.
+Published at [haskellcosm.com/analysis](https://haskellcosm.com/analysis.html). Small application to work with csv data and do analysis over companies. Generates several charts based on structured data.
 
 ## Contributions
 
