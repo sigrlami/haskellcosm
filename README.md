@@ -2,10 +2,10 @@
 
 Useful information about Haskell ecosystem.
 
-1. [Companies](#companies) - already published at [haskellcosm.com](https://haskellcosm.com)
+1. [Companies](#companies) - published at [haskellcosm.com](https://haskellcosm.com)
 2. [Media](#media)
 3. [Communities](#communities)
-4. [Analysis](#analysis)
+4. [Analysis](#analysis) - published at [haskellcosm.com/analysis][https://haskellcosm.com/analysis.html]
 5. [Contributions](#contributions)
 
 
@@ -23,7 +23,7 @@ List of communities
 
 ## Analysis
 
-Small application to work with csv data and do analysis over companies.
+Small application to work with csv data and do analysis over companies. Generates several charts based on structured data.
 
 ## Contributions
 
