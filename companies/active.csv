@@ -1,4 +1,4 @@
-N,Name,Url,Type,Country,City,Area,Description,Comxment,Comment2,
+N,Name,Url,Type,Country,City,Area,Description,Comment,Comment2,
 1,Microsoft,https://github.com/Microsoft/bond,RD,UK,Cambridge,Compilers,sponsored GHC r&d, framework for working with schematized data,,
 2,Facebook,https://goo.gl/U99jAO,IP,USA,"CA, Menlo Park","Advertising, Spam Filtering",Haxl - Haskell library that simplifies access to remote data, such as databases or web-based services,,
 3,Barclays Capital,http://www.barclays.com/,IP,UK,London,Finance,In-House Trading software,,,
