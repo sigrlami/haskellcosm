@@ -1,20 +1,89 @@
-name:                hscosm-api
-version:             0.1.0.0
--- synopsis:
--- description:
-homepage:            https://github.com/sigrlami/hscosm-api#readme
-license:             BSD3
-license-file:        LICENSE
-author:              Sergey Bushnyak
-maintainer:          sergey.bushnyak@sigrlami.eu
-copyright:           Copyright: (c) 2017 Sergey Bushnyak
-category:            Web
-build-type:          Simple
-cabal-version:       >=1.10
-extra-source-files:  README.md
+cabal-version: 1.12
 
-executable hscosm-api
-  hs-source-dirs:      src
-  main-is:             Main.hs
-  default-language:    Haskell2010
-  build-depends:       base >= 4.7 && < 5
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 1aa8eada47d93e3fab6094d24be6410ac5b686a9d4e81f91aef35ce8514a580c
+
+name:           hscosm-api
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/sigrlami/haskellcosm/hscosm-api#readme
+author:         Sergey Bushnyak
+maintainer:     sergey.bushnyak@sigrlami.eu
+copyright:      Copyright: (c) 2018-2020 Sergey Bushnyak
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable meetrec-api
+  main-is: Main.hs
+  other-modules:
+      Api
+      Paths_hscosm_api
+  hs-source-dirs:
+      src
+  default-extensions: OverloadedStrings TemplateHaskell
+  other-extensions: ScopedTypeVariables FlexibleContexts DeriveGeneric
+  ghc-options: -threaded -O2
+  build-depends:
+      HaskellNet
+    , HaskellNet-SSL
+    , MissingH
+    , MonadRandom
+    , Unique
+    , aeson >=0.1.11.4
+    , aws
+    , base >=4
+    , base64-bytestring
+    , blaze-html
+    , bytestring
+    , cassava
+    , conduit
+    , conduit-extra
+    , cryptonite
+    , data-default
+    , directory
+    , elocrypt
+    , exceptions
+    , filepath
+    , http-api-data
+    , http-client
+    , http-conduit
+    , jose-jwt
+    , lens
+    , memory
+    , mime-mail
+    , network
+    , optparse-applicative
+    , postgresql-simple
+    , process
+    , random
+    , random-strings
+    , resourcet
+    , safe
+    , servant >=0.6.0
+    , servant-auth
+    , servant-auth-server
+    , servant-blaze
+    , servant-multipart
+    , servant-server
+    , servant-swagger
+    , smtp-mail
+    , split
+    , template-haskell
+    , text
+    , time
+    , unix
+    , uuid
+    , vector
+    , wai
+    , wai-cors
+    , wai-extra
+    , warp
+    , yaml
+    , zip-archive
+  default-language: Haskell2010

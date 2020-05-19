@@ -1,3 +1,3 @@
-- app - WIP - Reflext frontend for future web app to replace static page
-- api - WIP - Haskell backend for future web app to replace static page
-- analysis - standalone app to generate html and graphs from csv
+- `app` - WIP - Haskell/Reflex frontend for webapp to replace static page
+- `api` - WIP - Haskell/Servant backend for webapp to replace static page
+- `analysis` - standalone app to generate html, graphs, and analytics from csv

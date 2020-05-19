@@ -1,0 +1,86 @@
+name: hscosm-api
+version: '0.1.0.0'
+category: Web
+author: Sergey Bushnyak
+maintainer: sergey.bushnyak@sigrlami.eu
+copyright: ! 'Copyright: (c) 2018-2020 Sergey Bushnyak'
+license: MIT
+homepage: https://github.com/sigrlami/haskellcosm/hscosm-api#readme
+extra-source-files:
+- README.md
+default-extensions:
+- OverloadedStrings
+- TemplateHaskell
+other-extensions:
+- ScopedTypeVariables
+- FlexibleContexts
+- DeriveGeneric
+ghc-options:
+- -threaded
+- -O2
+dependencies:
+- base >=4
+- aeson >=0.1.11.4
+- warp
+- wai
+- aws
+- wai-cors
+- wai-extra
+- servant >=0.6.0
+- servant-server
+- servant-auth
+- servant-auth-server
+- servant-swagger
+- servant-multipart
+- servant-blaze
+- servant-multipart
+- blaze-html
+- MonadRandom
+- exceptions
+- optparse-applicative
+- http-conduit
+- postgresql-simple
+- uuid
+- text
+- lens
+- bytestring
+- time
+- elocrypt
+- resourcet
+- wai-extra
+- template-haskell
+- http-client
+- Unique
+- split
+- safe
+- yaml
+- cassava
+- unix
+- directory
+- filepath
+- zip-archive
+- http-api-data
+- filepath
+- data-default
+- MissingH
+- jose-jwt
+- cryptonite
+- random
+- memory
+- process
+- mime-mail
+- random-strings
+- aws
+- network
+- HaskellNet
+- HaskellNet-SSL
+- conduit
+- conduit-extra
+- vector
+- smtp-mail
+- base64-bytestring
+
+executables:
+  meetrec-api:
+    main: Main.hs
+    source-dirs: src

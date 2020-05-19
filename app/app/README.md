@@ -1,1 +1,1 @@
-# hscosm-app
+# HaskellCosm webapp frontend

@@ -1,1 +1,1 @@
-# hscosm-api
+# HaskellCosm backend
