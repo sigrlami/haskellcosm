@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 1aa8eada47d93e3fab6094d24be6410ac5b686a9d4e81f91aef35ce8514a580c
+-- hash: 60d2ff0aafa8597483722b4955117390a769428cf3b6a2fd04c4e6c6f8bedc51
 
 name:           hscosm-api
 version:        0.1.0.0
@@ -23,6 +23,8 @@ executable meetrec-api
   main-is: Main.hs
   other-modules:
       Api
+      Config
+      Types
       Paths_hscosm_api
   hs-source-dirs:
       src
