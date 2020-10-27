@@ -1,4 +1,4 @@
-Name                 ,,Type,Country,City,Area,Start Date (Approx), Clode Date (Approx),Reason                 ,Beneficiar,Description,
+Name                 ,,Type,Country,City,Area,Start Date (Approx), Close Date (Approx),Reason                 ,Beneficiary,Description,
 Bump ,https://bu.mp/,,USA,,,, 31/12/2013          ,,"Google, Inc.","Bump used a Haskell-based server,  [Angel](https://github.com/MichaelXavier/Angel)  and for other infrastructure tasks. ",
 Parallel Scientific,http://www.parsci.com,,USA,,,Circa 2011,circa december 2013 ,Pivot,Docforce," FPGA  generation,  distributed computing ",
 Erudify         ,http://www.erudify.com,,Switzerland,,"SaaS, Education",,circa march 2014    ,Pivot,"Better, Inc."," now  Better,  Online education platform",
@@ -16,7 +16,7 @@ ThoughtLeader ,http://www.thoughtleadr.com/,PR,USA,"TX, Austin",Advertising,,,Cl
 WeAreWizards,http://wearewizards.io,CO,UK,London,Consulting,,,Closed,,Multiple customer tailored projects consulting , https://blog.wearewizards.io/a-lot-of-websockets-in-haskell
 Front Row Education,https://www.frontrowed.com/,PR,USA,"CA, San Francisco",Education,,16/04/2018,Reorganized,"Freckle Education, Inc",reorganized,
 RefMe ,https://www.refme.com/,PR,USA,"NY, NYC",Education,,Circa 2018,Acquired,"Chegg, Inc",,
-SumAll,https://sumall.ai,,,,,,,Reorganized,,,
+SumAll,https://sumall.ai,PR,USA,"NY, NYC",AI,,Circa 2019,Closed,,business operations automation,
 Pivot Cloud,,CO,USA,"Ca, Sunnyvale",Consulting,,,Closed,,,
 Monstercat,https://www.monstercat.com/,IP,Canada,Vancouver,Finance,Circa 2012,Circa 2018,Replaced,"Monstercat, Inc.",internal processing system for artists payments. System replaced in GO after CTO left,
 Borders,http://borders.jp/global/,PR,Japan,Tokyo,Finance,Circa 2006,12/01/18,Closed,,,
@@ -24,3 +24,4 @@ AlphaSheets,http://www.alphasheets.com/,PR,USA,"CA, San Francisco",,Circa 2015,D
 Takt,,PR,USA,"CA, San Francisco",,,,Reorganized,Formation,,
 Metrix,http://www.metrix-frs.de,PR,Germany,Hamburg,Advertising,,,Reorganized,,into metrix.ai,
 Monic,https://monic.co,PR,USA,"NY, NYC",Consulting,2017,Unknown,Closed,,https://www.reddit.com/r/haskell/comments/8zypne/pact_property_checker_smtintegrated_language/,
+Databrary,https://www.databrary.org,PR,USA,"NY, NYC",Big Data,,2020,Closed,,http://web.archive.org/web/20170819192506/https://www.databrary.org/about/jobs/back-end.html,
